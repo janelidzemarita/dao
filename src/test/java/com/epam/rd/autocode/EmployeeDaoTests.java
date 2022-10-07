@@ -107,7 +107,7 @@ public class EmployeeDaoTests {
     }
 
     @Test
-    public void departmentDaoSaveDelete() throws Exception {
+    public void employeeDaoSaveDelete() throws Exception {
         final EmployeeDao employeeDao = new DaoFactory().employeeDAO();
 
         final Set<Employee> backup = Files.walk(Paths.get("src/test/resources/emp/"))
